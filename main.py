@@ -48,7 +48,7 @@ class MainWindow(QMainWindow):
     def button_clicked(self):
         text = self.line_edit.text()
         text = text.lower()
-        if text == 'nigger' or text == 'jovan':
+        if text == 'nigger' or text == 'jovan' or text == 'nigga':
             self.label_image1.setPixmap(self.image1)
             self.label_image1.setGeometry(10, 200, 300, 300)
             self.label_image1.setScaledContents(True)
