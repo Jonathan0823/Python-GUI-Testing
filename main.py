@@ -1,7 +1,5 @@
 import sys
 import pygame
-import time
-import threading
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit, QPushButton, QLabel
 from PyQt5.QtGui import QIcon, QPixmap
 
