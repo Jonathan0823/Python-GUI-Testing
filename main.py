@@ -12,8 +12,8 @@ class MainWindow(QMainWindow):
         self.setWindowIcon(QIcon('sleepyy.png'))
 
         self.image1 = QPixmap('epic_N.png')
-        self.image2 = QPixmap('thumbs.jpg')
-        self.image3 = QPixmap('chinese.jpg')
+        self.image2 = QPixmap('thumbs.png')
+        self.image3 = QPixmap('chinese.png')
 
         self.line_edit = QLineEdit(self)
 
