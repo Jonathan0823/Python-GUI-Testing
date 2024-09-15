@@ -60,7 +60,7 @@ class MainWindow(QMainWindow):
             pygame.mixer.music.play()
 
         else:
-            self.label2.setText(f"Hello {text}")
+            self.label2.setText(f"Hello {text.capitalize()}")
             self.label_image1.setPixmap(self.image2)
             self.label_image1.setGeometry(10, 200, 300, 300)
             self.label_image1.setScaledContents(True)
