@@ -9,11 +9,11 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setGeometry(600,250,700, 700)
         self.setWindowTitle('IDK what is this')
-        self.setWindowIcon(QIcon('sleepyy.png'))
+        self.setWindowIcon(QIcon('assets/image/sleepyy.png'))
 
-        self.image1 = QPixmap('image/epic_N.png')
-        self.image2 = QPixmap('image/thumbs.png')
-        self.image3 = QPixmap('image/chinese.png')
+        self.image1 = QPixmap('assets/image/epic_N.png')
+        self.image2 = QPixmap('assets/image/thumbs.png')
+        self.image3 = QPixmap('assets/image/chinese.png')
 
         self.line_edit = QLineEdit(self)
 
@@ -64,7 +64,7 @@ class MainWindow(QMainWindow):
             self.label2.setStyleSheet('font-size: 30px;')
             self.label2.setText(f"YOU'RE BLACK👶🏿👦🏿🍉")
 
-            sound_file = "audio/getout.mp3"
+            sound_file = "assets/audio/getout.mp3"
             pygame.mixer.music.load(sound_file)
             pygame.mixer.music.play()
         
@@ -76,7 +76,7 @@ class MainWindow(QMainWindow):
             self.label2.setStyleSheet('font-size: 20px;')
             self.label2.setText(f"动态网自由门 天安門 天安门 法輪功 李洪志 Free Tibet 六四天安門事件\n The Tiananmen Square protests of 1989\n 天安門大屠殺 \nThe Tiananmen Square Massacre 反右派鬥爭 \nThe Anti-Rightist Struggle 大躍進政策 The Great Leap Forward 文化大革命 The Great Proletarian Cultural Revolution 人權 \nHuman Rights 民運 Democratization 自 Freedom 獨立")
 
-            sound_file = "audio/yofon.mp3"
+            sound_file = "assets/audio/yofon.mp3"
             pygame.mixer.music.load(sound_file)
             pygame.mixer.music.play()
             
