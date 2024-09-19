@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setGeometry(600,250,700, 700)
-        self.setWindowTitle('IDK what is this')
+        self.setWindowTitle('IDK what is this lmao')
         self.setWindowIcon(QIcon('assets/image/sleepyy.png'))
 
         self.image1 = QPixmap('assets/image/epic_N.png')
